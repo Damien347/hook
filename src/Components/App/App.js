@@ -4,6 +4,7 @@ import FunctionState from '../StateFunction/FunctionState';
 import TodoList from '../StateFunction/TodoList';
 import CycleLife from '../CycleLife/CycleLife';
 import WillUnmount from '../CycleLife/WillUnmount';
+import Arbre from '../UseContext/Arbre';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <TodoList />
       <CycleLife />
       <WillUnmount />
+      <Arbre />
     </div>
   );
 }
